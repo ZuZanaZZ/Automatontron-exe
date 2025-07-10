@@ -9,7 +9,7 @@
             "text_lines": [
                 "It looks like you're trying to play the game. Press enter for useful tips!",
                 "The goal of this game is to pass all the levels, and become the master of automata! To pass a level, build a robot that can read the given language. This robot is called automaton.",
-                "The language that your automaton should recognise can be seen at the bottom of the screen.",
+                "The language that your automaton should recognise can be seen at the bottom of the screen. Language is made up of strings, which are a sequence of symbols.",
                 "Try creating an automaton! Or press enter for more useful tips!",
                 "To make automaton you need circles and arrows. Circles represent the states of the automaton. Arrows represent the transitions between the states. Automaton goes between states upon reading a symbol.",
                 "Try getting a circle from the circle generator (left) at the bottom of the screen. Press spacebar to pick up the circle. Press spacebar again to put the circle down.",
@@ -18,7 +18,7 @@
                 "Then get another circle. To end creating the arrow and attaching it to the circle press the key \"a\" again. Now you have created a transition between the two circles!",
                 "The arrow can be deleted by pressing the key \"d\". You can add a symbol to arrow by pressing the keys \"z\", \"x\", \"c\", \"v\".",
                 "You can tell the automaton where to start or end the computation by marking the circle. Circles have variants: base, initial, accepting and initial accepting. Cycle through the variants of the circle to add states to the automaton by pressing the key \"s\".",
-                "The initial state is shown as blue. The accepting state has 2 outlines. Automaton accepts the string, if it goes from initial to accepting state. It recognises a language, if it accepts all the strings in the language.",
+                "The initial state is shown as orange. The accepting state has 2 outlines. Automaton accepts the string, if it goes from initial to accepting state. It recognises a language, if it accepts all the strings in the language.",
                 "To check, if the automaton recognises the language, stand on the button at the bottom of the screen. The button starts the automaton's computation",
                 "Good luck!"
             ]
@@ -32,7 +32,7 @@
             "text_lines": [
                 "It looks like you're trying to play the game. Press enter for useful tips!",
                 "The \"*\" is called Kleene closure. It means that the symbol repeats. From 0 occurrences to infinity! So: ε, z, zz, zzz... To make this automaton, use the loop arrow. It makes the automaton remain in the same state.",
-                "You can make the circle to be a, initial and accepting variant at the same time. It's blue with another outline.",
+                "You can make the circle to be a, initial and accepting variant at the same time. It's orange with another outline.",
                 "Good luck!"
             ]
         },
@@ -64,7 +64,7 @@
             "text_lines": [
                 "It looks like you're trying to play the game. Press enter for useful tips!",
                 "When all strings in a language share the same beginning, that shared part is called a prefix. When they share the same ending, it's called a suffix.",
-                "Now you know the basics! Put your knowledge to test and make this automaton.",
+                "Now you know the basics! Put your knowledge to the test and make this automaton.",
                 "Good luck!"
             ]
         }
