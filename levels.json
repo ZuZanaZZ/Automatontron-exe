@@ -5,10 +5,11 @@
             "initial_states": [0],
             "accepting_states": [1],
             "transition_dict": {"0":[[["z"], 1]]},
-            "language": "Automaton should accept the language consisting of string z. L = {z}.",
+            "language": "Automaton should recognise the language consisting only of string \"z\". L = {z}.",
             "text_lines": [
                 "It looks like you're trying to play the game. Press enter for useful tips!",
-                "The goal of this game is to pass all the levels, and become the master of automata!. To pass a level, build a robot that can read the given language. This robot is called automaton.",
+                "The goal of this game is to pass all the levels, and become the master of automata! To pass a level, build a robot that can read the given language. This robot is called automaton.",
+                "The language that your automaton should recognise can be seen at the bottom of the screen.",
                 "Try creating an automaton! Or press enter for more useful tips!",
                 "To make automaton you need circles and arrows. Circles represent the states of the automaton. Arrows represent the transitions between the states. Automaton goes between states upon reading a symbol.",
                 "Try getting a circle from the circle generator (left) at the bottom of the screen. Press spacebar to pick up the circle. Press spacebar again to put the circle down.",
@@ -112,6 +113,7 @@
                                 "8": [[["c"], 6]]},
             "language": "L₁ = {(zxx)*}, L₂ = {(zxc)*}, L = L₁ ∪  L₂",
             "text_lines": [
+                "It looks like you're trying to play the game. Press enter for useful tips!",
                 "The Kleene closure can be used on more than one symbol. The whole expression must be repeated, so the automaton cannot stop partway through the expression.",
                 "Since languages are sets, we can do set operations on them. For example union. Language L must contain the strings from both L₁ and L₂.",
                 "Good luck!"
@@ -126,8 +128,10 @@
                                 "2": [[["v"], 3]],
                                 "3": [[["c"], 4]],
                                 "4": [[["x"], 2]]},
-            "language": "L = {(zx + zc)(vcx)*}",
+            "language": "L = {(zx|zc)(vcx)*}",
             "text_lines": [
+                "It looks like you're trying to play the game. Press enter for useful tips!",
+                "The vertical bar separates alternatives. It means that the string can begin with either \"zx\" or \"zc\".",
                 "Now you know everything! There are no more useful tips. Good luck!"
             ]
         },
